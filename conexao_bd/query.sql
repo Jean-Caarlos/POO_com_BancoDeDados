@@ -1,4 +1,4 @@
-CREATE TABLE [GRP-10/22].Jean_Amorim_cartao
+CREATE TABLE username_cartao
 (
     id int IDENTITY NOT NULL,
     id_proprietario int NOT NULL,
@@ -7,7 +7,7 @@ CREATE TABLE [GRP-10/22].Jean_Amorim_cartao
     data_emissao DATE NOT NULL
 );
 
-CREATE TABLE [GRP-10/22].Jean_Amorim_usuario
+CREATE TABLE username_usuario
 (
     id int IDENTITY NOT NULL,
     nome VARCHAR(100) NOT NULL,
@@ -17,7 +17,7 @@ CREATE TABLE [GRP-10/22].Jean_Amorim_usuario
     data_nascimento DATE NOT NULL
 );
 
-CREATE TABLE [GRP-10/22].Jean_Amorim_motorista
+CREATE TABLE username_motorista
 (
     id int IDENTITY NOT NULL,
     cnh int NOT NULL,
@@ -27,7 +27,7 @@ CREATE TABLE [GRP-10/22].Jean_Amorim_motorista
 );
 
 
-CREATE TABLE [GRP-10/22].Jean_Amorim_onibus
+CREATE TABLE username_onibus
 (
     id int IDENTITY NOT NULL,
     id_motorista int NOT NULL,
